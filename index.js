@@ -28,13 +28,12 @@ function currentWeather(zipcode) {
 
         // Add weather objects
         $(".city").text("City: " + weather.name);
-        $(".country").text("Country: " + weather.sys.country);
         $(".humidity").text("Humidity: " + weather.main.humidity + "%");
         $(".description").text("Description: " + weather.weather[0].description);
 
         // moment is now working! - working on having it display the user's local timezone using getTimezoneOffset()
         let timeZone = weather.timeZone;
-        let time = moment.tz(timeZone).utcOffset('-0400').format('dddd') + ', ' + moment.tz(timeZone).utcOffset('-0400').format('hh:mm a z');
+        let time = moment.tz(timeZone).utcOffset('-0400').format('dddd') + ', ' + moment.tz(timeZone).utcOffset('-0400').format('hh:mm a');
         $(".time").text("Time: " + time);
 
         // Meters to Miles - this is for the wind speed display
