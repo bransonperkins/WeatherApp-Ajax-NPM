@@ -4,7 +4,8 @@
   "description": "Create weather app using JavaScript, npm, AJAX, OpenWeather API",
   "main": "index.js",
   "scripts": {
-    "test": "test.js"
+    "test": "test.js",
+    "start": "node index.js"
   },
   "keywords": [
     "Weather",
@@ -20,5 +21,13 @@
   "dependencies": {
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.28"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bransonperkins/WeatherApp-Ajax-NPM.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bransonperkins/WeatherApp-Ajax-NPM/issues"
+  },
+  "homepage": "https://github.com/bransonperkins/WeatherApp-Ajax-NPM#readme"
 }
