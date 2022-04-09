@@ -19,7 +19,7 @@
   "author": "Branson Perkins",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "moment-timezone": "^0.5.28"
   },
   "repository": {
